@@ -1,0 +1,131 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
+}
+
+html, body {
+	height:100%;
+	background-color: #f7f7f7;
+}
+
+header {
+	background-color: white;
+	height:9%;
+	margin-bottom: 5.5px;
+	box-shadow:1px 4px 4px lightgrey;
+}
+
+#section {
+	background-color:white;
+	width: 75%;
+	height: 90.1%;
+}
+
+#section h2 {
+	text-align: center;
+	padding-top:2vh;
+	color: #0f164f;
+	opacity: 0.38;
+}
+
+#section ul li p {
+	display:block;
+	text-align: left
+	color: #0f164f;
+	opacity: 0.38;
+	margin-left: 0.3vw;
+}
+
+#section ul li p:hover {
+	opacity:1;
+	transition: opacity 2s;
+	cursor: pointer;
+}
+
+#section ul {
+	display: block;
+}
+
+.avatar {
+	width:38px;
+	height: 38px;
+	border-radius:100%;
+}
+
+.avatar_chat {
+	width:54px;
+	height: 54px;
+	border-radius:100%;
+	padding: 20px;
+}
+
+.ligne {
+	display:flex;
+	align-content: center;
+	align-items: center;
+	padding-bottom: 1vh;
+}
+
+.ligne_chat {
+	display:flex;
+	align-content: center;
+	align-items: center;
+	padding-bottom: 3vh;
+	text-align: left;
+}
+
+#inline {
+	display:inline-flex;
+	height :100.3%;
+	width: 100%;
+	position: fixed;
+}
+
+.texte_chat {
+	font-size:1.5em;
+	line-height: 35px;
+	margin-right: 3.5vw;
+	max-width: 300%;
+}
+
+#me {
+	background-color: #3399ff;
+	color:white;
+	opacity:1;
+	font-weight: 400;
+    font-size: 20px;
+    padding: 15px 25px;
+	border-radius: 34px;
+	box-shadow: 4px 4px 4px lightgrey;
+}
+
+#others {
+	background-color: white;
+	color:#0f164f;
+	opacity: 0.31;
+	font-weight: 400;
+    font-size: 20px;
+    padding: 15px 25px;
+	border-radius: 34px;
+	box-shadow: 4px 4px 4px lightgrey;
+}
+
+#chat {
+	height: 90.1%;
+	width:250%;
+}
+
+#chat ul {
+	height: 91.3%;
+	overflow: auto;
+}
+
+input {
+	width:100%;
+	height:5%;
+	font-size: 1.5em;
+	border:0px solid white;
+	text-align: left;
+	padding: 15px;
+	position: fixed;
+}
