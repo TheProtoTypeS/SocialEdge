@@ -24,7 +24,7 @@
 		</ul>
 	</section>
 	<section id="chat">
-		<ul>
+		<ul id="scrollbottom">
 			<li class="ligne_chat">
 				<img class="avatar_chat" src="webd.png">
 				<p id="me" class="texte_chat">Salut!</p>
@@ -69,5 +69,9 @@
 		<input placeholder="Écrire un message..."></input>
 	</section>
 </div>
+<script type="text/javascript">
+	element = document.getElementById('scrollbottom');
+    element.scrollTop = element.scrollHeight;
+</script>
 </body>
 </html>
