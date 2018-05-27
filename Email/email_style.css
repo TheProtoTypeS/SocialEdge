@@ -1,0 +1,96 @@
+* {
+	font-family: 'Ubuntu', sans-serif;
+	margin: 0px;
+}
+
+html, body {
+	height:100%;
+	width:100%;
+	display: flex;
+    background-color: #d2d5db;
+}
+
+#mail {
+	width:550px;
+	height: 600px;
+	background-color: #f7f7f7;
+	margin: auto;
+}
+
+#button {
+	width:100%;
+	height: 15%;
+	text-align: center;
+	margin-top: 6%;
+}
+
+#button_text {
+	color:white;
+	background-color: #264e86;
+	box-shadow: 1px 3px 3px black;
+	padding: 30px;
+	font-size: 2.5em;
+	text-decoration: none;
+	text-transform: uppercase;
+}
+
+#pale {
+	background-color: #0074e4;
+	height: 35%;
+	width: 100%;
+}
+
+#inline {
+	display: inline-flex;
+	width:100%;
+}
+
+#fonce {
+	background-color: #264e86;
+	height: 30%;
+	width: 100%
+}
+
+#logo {
+	width:10%;
+	height: 30%;
+}
+
+#link {
+	color: black;
+	opacity: 1;
+	text-decoration: none;
+}
+
+#link:hover {
+	color:#0074e4;
+	transition: color 2s;
+	webkit-transition: color 2s;
+}
+
+#footer {
+	text-align: center;
+	padding:10px;
+}
+
+h1 {
+	font-size:2em;
+	text-align: left;
+	padding:2% 5%;
+	color:lightgrey;
+}
+
+h2 {
+	font-size:3em;
+	text-align: center;
+	padding:7% 0px;
+	color:white;
+}
+
+p {
+	color: black;
+	opacity: 0.38;
+	font-size:1.5em;
+	text-align:center; 
+	padding:30px;
+}
